@@ -1,9 +1,11 @@
 
+import HeroSection from './heroSection/heroSection';
 
-export default function Home() {
+export default function index() {
   return (
-    <div>
-      <h1 className="border-4 border-indigo-500">dassa</h1>
-    </div>
+    <>
+      <HeroSection />
+    </>
+    
   )
 }
